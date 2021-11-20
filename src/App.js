@@ -74,6 +74,8 @@ class App extends Component {
                 </li>
                 <li>
                   <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ZanoTN/site-zano-tn/main?style=for-the-badge" />
+                </li>
+                <li>
                   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/ZanoTN/site-zano-tn?style=for-the-badge"></img>
                 </li>
                 <li>
