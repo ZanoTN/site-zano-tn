@@ -156,13 +156,13 @@ mark {
     height: 0;
   }
   100% {
-    height: calc(120px + 6vmin);
+    height: calc(130px + 6vmin);
   }
 }
 
 @keyframes height-close {
   0% {
-    height: calc(120px + 6vmin);
+    height: calc(130px + 6vmin);
   }
   100% {
     height: 0px;
