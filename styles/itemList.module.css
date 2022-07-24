@@ -15,7 +15,19 @@
 	user-select: none;
 	max-width: 20rem;
 	min-width: 16rem;
+	touch-action: manipulation;
+	box-shadow: none;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
+.box:focus {
+	outline: none;
 }
 
 .box:hover {
