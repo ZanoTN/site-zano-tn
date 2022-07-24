@@ -1,0 +1,62 @@
+.box {
+	padding: 0px 1rem;
+	background-color: var(--contacts-box-color);
+	color: var(--contacts-text-color);
+	height: auto;
+	width: auto;
+	display: inline-flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 7px;
+	transition: 0.3s;
+	text-decoration: none;
+	user-select: none;
+	max-width: 20rem;
+	min-width: 16rem;
+
+}
+
+.box:hover {
+	outline: none;
+	background-color: var(--contacts-box-color-hover);
+}
+
+.box:active {
+	outline: none;
+	background-color: var(--contacts-box-color-pressed);
+}
+
+.img {
+	padding: 0;
+	height: 2rem;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.username {
+	padding: 0;
+	margin-left: auto;
+	margin-right: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (min-width: 650px) {
+	.box {
+		display: inline-flex;
+		margin: 0 0.5rem;
+		margin-bottom: 1rem;
+		width: 17rem;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.box {
+		display: flex;
+		margin: auto;
+		margin-bottom: 1rem;
+		max-width: 20rem;
+		min-width: 16rem;
+	}
+}
